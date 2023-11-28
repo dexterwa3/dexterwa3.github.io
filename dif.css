@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #595959;
+  font-family: 'Playfair Display', serif;
+}
+
+.navtop {
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+
+
+.navtop button {
+  float: left;
+  display: block;
+  background-color: #333;
+   text-align: center;
+  padding: 25px 29px;
+  text-decoration: none;  
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.navtop button:hover {
+    background-color: #666666;
+    cursor: pointer;
+}
+
+.header {
+float: center;
+
+}
+
+/*
+Fullscreen code provided by: 
+https://stackoverflow.com/questions/3982422/full-screen-iframe
+*/
+
+.fullscreen { 
+    position:fixed; 
+    top:0; 
+    left:0; 
+    bottom:0; 
+    right:0; 
+    width:100%; 
+    height:100%; 
+    border:none; 
+    margin:0; 
+    padding:0; 
+    overflow:hidden; 
+    z-index:999999;
+}
+
+#aboutme {
+    width: 100%;
+}
