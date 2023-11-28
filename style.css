@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: #595959;
+  font-family: 'Bad Script', cursive;
+}
+
+.button {
+    
+    background-color: #595959;
+    border: 0;
+    padding: 15px 15px;
+    font-family: 'Bad Script', cursive;
+    font-size: 19px;
+}
+
+.button:hover {
+    
+    background-color: #D3D3D3;
+    cursor: pointer;
+}
+
+.top {
+    
+   overflow:hidden; 
+   background-color: #777;
+    
+}
+
